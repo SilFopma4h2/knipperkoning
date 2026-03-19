@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knipperkoning Minne — Verhuur Oosterbeek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="brand">Knipperkoning <span>Minne</span></a>
+    <div class="nav-links">
+      <a href="#verhuur">Verhuur</a>
+      <a href="#waarom">Waarom wij</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="burger" id="burger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#verhuur" class="mm-link">Verhuur</a>
+    <a href="#waarom" class="mm-link">Waarom wij</a>
+    <a href="#contact" class="mm-link">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="crown-icon">👑</div>
+    <h1 class="hero-title">Knipperkoning<br><span>Minne</span></h1>
+    <p class="hero-sub">Verhuur · Oosterbeek · Stenenknipper & Trilplaat</p>
+    <div class="hero-cta">
+      <a href="#verhuur" class="btn-primary">Bekijk verhuur</a>
+      <a href="#contact" class="btn-ghost">Contact</a>
+    </div>
+    <div class="hero-badges">
+      <div class="badge">⭐ 5.0 beoordeling</div>
+      <div class="badge">📍 Oosterbeek</div>
+      <div class="badge">✅ 9 reviews</div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<section id="verhuur" class="section-dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-label">Wat wij verhuren</p>
+      <h2 class="section-title">Verhuur</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="products-grid" id="productsGrid">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+  </div>
+</section>
+
+<section id="waarom" class="section-grey">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-label">De voordelen</p>
+      <h2 class="section-title">Waarom wij?</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><div class="why-icon">💰</div><h4 class="why-title">Scherpe prijzen</h4><p class="why-desc">Eerlijk geprijsd voor particulieren en klusmakers. Geen verborgen kosten.</p></div>
+      <div class="why-item reveal"><div class="why-icon">📍</div><h4 class="why-title">Ophalen in Oosterbeek</h4><p class="why-desc">Makkelijke ophaallocatie. Trilplaat ook bezorgbaar in de regio.</p></div>
+      <div class="why-item reveal"><div class="why-icon">⭐</div><h4 class="why-title">5.0 beoordeling</h4><p class="why-desc">9 tevreden klanten op Marktplaats. Betrouwbaar en persoonlijk contact.</p></div>
+      <div class="why-item reveal"><div class="why-icon">🛡️</div><h4 class="why-title">Goed materiaal</h4><p class="why-desc">Lumag trilplaat zo goed als nieuw, inclusief rubber beschermplaat.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-label">Interesse?</p>
+      <h2 class="section-title">Contact</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-item">
+        <span class="contact-label">Locatie</span>
+        <span class="contact-value">Oosterbeek</span>
+        <span class="contact-sub">Gelderland, Nederland</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Beschikbaarheid</span>
+        <span class="contact-value">Op afspraak</span>
+        <span class="contact-sub">Stuur een bericht via Marktplaats</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Beoordeling</span>
+        <span class="contact-value">5.0 ★</span>
+        <span class="contact-sub">9 ervaringen op Marktplaats</span>
+      </div>
+    </div>
+    <a href="https://www.marktplaats.nl/u/twoo/48785054/" target="_blank" class="marktplaats-btn reveal">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      Bekijk profiel op Marktplaats
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="brand">Knipperkoning <span>Minne</span></div>
+    <p>© 2026 · Oosterbeek · Verhuur stenenknipper & trilplaat</p>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Sluiten">✕</button>
+    <div class="modal-inner" id="modalInner"></div>
+  </div>
+</div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
